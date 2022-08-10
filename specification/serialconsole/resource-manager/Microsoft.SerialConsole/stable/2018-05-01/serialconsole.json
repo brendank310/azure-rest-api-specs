@@ -209,9 +209,13 @@
       "description": "Returns whether or not Serial Console is disabled.",
       "type": "object",
       "properties": {
-        "disabled": {
-          "description": "Whether or not Serial Console is disabled.",
-          "type": "boolean"
+	"properties": {
+	  "type": "object",
+	  "description": "Envelop object to match deployed APIs",
+          "disabled": {
+            "description": "Whether or not Serial Console is disabled.",
+            "type": "boolean"
+          }
         }
       }
     },
@@ -220,9 +224,13 @@
       "description": "Returns whether or not Serial Console is disabled (enabled).",
       "type": "object",
       "properties": {
-        "disabled": {
-          "description": "Whether or not Serial Console is disabled (enabled).",
-          "type": "boolean"
+	"properties": {
+	  "type": "object",
+	  "description": "Envelop object to match deployed APIs",
+          "disabled": {
+            "description": "Whether or not Serial Console is disabled (enabled).",
+            "type": "boolean"
+          }
         }
       }
     },
